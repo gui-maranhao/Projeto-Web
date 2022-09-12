@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #a52222, #ffa265);
+}
+
+.Cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 170px;
+    padding: 30px;
+    background-color: rgba(236, 234, 161, 0.599);
+    border-bottom: 1px solid #f0e18c;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item-apresentacao {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 300;
+    font-size: large;
+    color: black;
+    height: 60px;
+    width: 112px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-apresentacao:hover {
+    background-color: rgb(187, 187, 187);
+}
+.menu-item-fatos {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 300;
+    font-size: large;
+    color: black;
+    height: 60px;
+    width: 112px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-fatos:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+.menu-item-indoalem {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 300;
+    font-size: large;
+    color: black;
+    height: 60px;
+    width: 112px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-indoalem:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.menu-item-recomendacoes {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 300;
+    font-size: large;
+    color: black;
+    height: 60px;
+    width: 132px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item-recomendacoes:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+.geral {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.geral-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5px
+}
+
+.geral-info-fotos {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#geral-info-foto {
+    border-radius: 122px;
+    height: 230px;
+    position: absolute;
+    right:30%;
+}
+
+.geral-info-circulo {
+    height: 560px;
+}
+
+.geral-info-apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.geral-info-apresentacao-titulo {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 30px
+}
+
+.geral-info-apresentacao-paragrafo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+.geral-fatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#geral-fatos-titulo {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.geral-fatos-paragrafo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    gap: 6px;
+    list-style-type: none;
+}
+
+.geral-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+#geral-galeria-titulo {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.geral-galeria-paragrafo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.geral-galeria-fotos1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.geral-galeria-foto1 {
+    border-radius: 10px;
+    width: 260px;
+    border:1px solid #11bde4;
+}
+
+.geral-galeria-fotos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.geral-galeria-foto2 {
+    border-radius: 10px;
+    width: 260px;
+    border:1px solid #11bde4;
+}
+
+.geral-galeria-fotos3 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-top: 25px;
+}
+.geral-galeria-foto3 {
+    border-radius: 10px;
+    width: 260px;
+    border:1px solid #11bde4;
+}
+
+.geral-interacao {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#geral-interacao-titulo {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.geral-interacao-paragrafo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+
+.geral-interacao-recomendacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.geral-interacao-recomendacoes-serie{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.geral-interacao-recomendacoes-filme{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.geral-interacao-recomendacoes-musica{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.geral-interacao-paragrafo-abaixo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.geral-interacao-foto1{
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid #11bde4;
+}
+
+.geral-interacao-foto2{
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid #ee4646;
+}
+
+.geral-interacao-foto3{
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid #222222;
+}
+
+.geral-interacao-botao1{
+    background-color: #f1ad59;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px #030303;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    color: #242323
+}
+
+.geral-interacao-botao1:hover{
+    background-color: #fbd7ac;
+}
+
+.geral-interacao-botao2{
+    background-color: #f1ad59;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px #030303;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    color: #242323
+}
+
+.geral-interacao-botao2:hover{
+    background-color: #fbd7ac;
+}
+
+.geral-interacao-botao3{
+    background-color: #f1ad59;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px #030303;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    color: #242323
+}
+
+.geral-interacao-botao3:hover{
+    background-color: #fbd7ac;
+}
+
+.despedida{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.despedida-paragrafo{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 15px;
+}
+.rodape{
+    padding:25px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 100px;
+    border-top: 1px solid #f0e18c;
+    background-color: rgba(236, 234, 161, 0.599);
+}
+
+.rodape-paragrafo{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+}
+
+.rodape-paragrafo-insta{
+    border: none;
+    color: #242323
+}
