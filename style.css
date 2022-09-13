@@ -10,7 +10,6 @@
 body {
     font-size: 100%;
     background: linear-gradient(to right, #a52222, #ffa265);
-    background-repeat: no-repeat;
     background-size: 2000px;
     background-position: cover;
 }
